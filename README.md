@@ -1,6 +1,6 @@
-# DynamoDB Locking Pattern Example
+# DynamoDB Locking Read Pattern
 
-This project demonstrates how to implement a distributed locking pattern using Amazon DynamoDB's conditional expressions. It showcases a practical example of managing concurrent access in serverless and distributed systems.
+This project demonstrates how to implement a distributed pessimistic locking pattern using Amazon DynamoDB's conditional expressions. It showcases a practical example of managing concurrent access in serverless and distributed systems.
 
 ## Overview
 
@@ -82,4 +82,4 @@ The program produces detailed logs showing:
 
 ## Learn More
 
-For more details about DynamoDB locking patterns, see the accompanying blog post: [DynamoDB Locking Patterns](https://rogerchi.com/posts/ddb-locking-read).
+For more details about DynamoDB locking patterns, see the accompanying blog post: [Practical DynamoDB - Locking Reads](https://dev.to/aws-builders/practical-dynamodb-locking-reads-4o4i).
